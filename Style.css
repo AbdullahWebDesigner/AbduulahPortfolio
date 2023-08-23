@@ -1,0 +1,420 @@
+/* CSS RESET  */
+body{
+ width:100%;
+ height:100%;
+ background-color: black;
+overflow: auto; 
+scroll-behavior: auto;
+font-family: "Poppins", Arial, sans-serif !important;
+box-sizing: border-box !important;
+}
+
+/* NAVBAR STYLING STARTS */
+.navbar-bg{
+  background-color: black;
+}
+.navbar {
+    color: #fff;
+    background-color: black;
+  }
+  
+  .nav-links a {
+    color: #fff;
+  }
+  
+  /* LOGO */
+  .logo {
+    font-size: 25px;
+  }
+  
+  /* NAVBAR MENU */
+  .menu {
+    display: flex;
+    gap: 1em;
+    font-size: 18px;
+    padding-top: 12px;
+    font-weight: 400;
+  }
+  
+  .menu li:hover {
+
+  transition: 0.3 ease;
+ 
+  }
+  .menu li a:hover{
+    color: #ffbd39;
+    text-decoration: underline #ffbd39;
+    position: relative;
+   top: 5px;
+    transition: 0.3 ease;
+  }
+  .menu li {
+    padding: 5px 6px;
+  }
+
+input[type=checkbox] {
+    display: none;
+  } 
+  
+  /* HAMBURGER MENU */
+  .hamburger {
+    display: none;
+    font-size: 24px;
+    user-select: none;
+  }
+  
+  
+  /* Navbar Text   */
+.btn button{
+  border-radius: 50px;
+  letter-spacing: 2px;
+  font-size: small !important;
+}
+/* About section text  */
+.about-section {
+height: 29rem;
+}
+.about-text{
+    position: relative;
+    bottom: 5.5rem;
+    color: gray;
+    /* width: 40rem; */
+    text-align: start;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+}
+
+/* heading 1 */
+.heading-1 h1{
+font-weight: 800;
+padding:3rem 0px;
+display: flex;
+/* position: relative; */
+right:10rem;
+top: 4rem;
+}
+/* DETAILS  */
+.details{
+    display: grid;
+  grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  color: azure;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: start !important;
+}
+.details span:nth-child(even){
+    color: gray;    
+    }
+.details span:nth-child(odd){
+    font-weight: bold;
+
+}
+/* about btn  */
+.detail-btn button{
+  border-radius: 40px;
+}
+/* Image  */
+.detail-img{
+    width: 30rem !important;
+}
+/* Counter Css  */
+.counter{
+    padding-top: 40px;
+}
+#value {
+    font: 800 40px system-ui;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    width: 100px;
+    padding-left: 10px;
+  }
+.projects{
+    color: azure;
+    font-size:larger ;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 10px;
+}
+/* RESUME SECTION  */
+
+.resume-heading-2 h1{
+position: absolute;
+font-size: 7rem;
+left: 47rem;
+bottom:  -46rem;
+z-index: -1;
+font-weight: 900;
+}
+.resume-text{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    font-weight: 500;
+}
+/* RESUME SECTION BOXES */
+.resume-box-text{
+font-size: 12px;
+letter-spacing: 3px;
+color: gray;
+}
+.resume-box{
+border-radius: 10px;
+/* width: 40rem; */
+}
+/* Services Section   */
+
+.horizantal-bar div{
+    width: 4rem;
+    height: 1px;
+}
+.service-boxes{
+  color: white;
+}
+.service-boxes{
+  cursor: pointer;
+}
+.service-boxes li{
+color: #ffbd39;
+}
+.service-boxes:hover{
+  background-color: #ffbd39 !important;
+  color: black !important;
+  transition: 0.4s;
+}
+
+/* Skills  */
+.skill-heading-1{
+    padding-top: 13rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.progress{
+height: 12px;
+margin-top: 30px;
+}
+.progress-bar-row h4{
+position: relative;
+top: 40px;
+}
+.progress-bar-row{
+  display: flex;
+  justify-content: center;
+  margin: 0px;
+padding: 0px;
+}
+
+/* Projects  */
+.project-img img {
+    width:100% ;
+height: 90%;
+cursor: pointer;
+}
+.project-img img:hover{
+  z-index: 1;
+  opacity: 0.6;
+  transition: 0.4s;
+}
+/* Blog   */
+.card-img-top{
+    width: 26rem;
+    height: 20rem;
+}
+.blog-text{
+    word-spacing: 2px !important;
+    font-size: medium !important; 
+}
+.blog-pics{
+    padding-top: 5rem;
+  }
+  .blog-pics img{
+  cursor: pointer;
+
+}
+.blog-boxes{
+padding-top:10rem ;
+padding-left: 30px;
+}
+.blog-box div{
+    font-family: "Poppins", Arial, sans-serif;
+    /* width: 18rem; */
+ /* height: 9rem; */
+    border-radius: 7px;
+    
+}
+.blog-box div h1{
+    font-size: xx-large !important;
+    font-weight: 800 !important;
+
+}
+.blog-box div h5{
+    padding-top: 10px;
+}
+.blog-box div{
+  background-color: rgb(18, 17, 17);
+}
+/* background image  */
+/* .blog-box::before{
+  content: "";
+  background: url("../Pictures/bg_1.jpg") no-repeat center center/cover ;
+  height: 50%;
+  width: 100%;
+  position: absolute;
+  left: 0px;
+  top: 448rem;
+z-index: -1;
+opacity: 0.6;
+} */
+/* Contact Us  */
+.contact-us-icon{
+  height: 150px;
+  width: 150px;
+  /* position: relative;
+  left: 80px; */
+}
+/* form  */
+.form input,textarea{
+  border-radius: 6px;
+  border: 1px solid rgb(198, 193, 193);
+  font-size: larger;
+}
+.contact-us-text h5{
+line-height: 30px;
+}
+.contact-us-text-2{
+font-size: 18px;
+line-height: 40px;
+}
+
+/* APPLYING MEDIA QUERIES */
+@media (max-width: 768px) {
+
+  .menu {
+     display:none;
+     position: absolute;
+     background-color:rgb(24, 23, 23);
+     right: 0;
+     left: 0;
+     text-align: left;
+     padding:2rem 0;
+   }
+   .menu li + li {
+     margin-top: 12px;
+   }
+ /* navbar text  */
+ .navbar-text p{
+text-align: center;
+font-size: 45px;
+ }
+ /* about me  */
+ .detail-img{
+  display: none;
+ }
+ .btn {
+  justify-content: center;
+ }
+.heading-1 h1{
+justify-content: center;  
+}
+.detail{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-self: center;
+}
+/* counter  */
+.counter{
+  text-align: center;
+}
+.detail-btn{
+  text-align: center;
+}
+/* Resume  */
+
+
+
+
+   input[type=checkbox]:checked ~ .menu {
+     display: block;
+   }
+   .hamburger {
+     display: block;
+   }
+   .hamburger:hover{
+    transition: 1s;
+   }
+ }
+ /* for navbar only   */
+
+ /* 992 media queery  */
+ @media (max-width:992px) {
+  .navbar{
+flex-direction: column;
+  }
+}
+
+ @media (max-width:575px) {
+  /* Resume  */
+  .resume{
+  margin: 0px 15px;
+  }
+  .services{
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+    }
+
+
+
+  /* 575 width media queery */
+
+
+
+
+
+
+  /* for navbar only  */
+@media (max-width:768px) {
+  .navbar{
+    flex-direction: row;
+  }
+  /* for navbar fixed position only  */
+  @media (max-width:1139px)
+{
+}
+  }
+
+/* UTILITY CLASSES */
+.yellow{
+    color: #ffbd39;
+    
+}
+.bg-yellow{
+    background-color: #ffbd39;
+}
+.bg-black{
+    background-color: black;
+}
+.bg-heading{
+    color: rgba(255, 255, 255, 0.1)
+}
+.gray{
+    color: #999999;
+}
+.bg-gray{
+   background-color:  rgba(255, 255, 255, 0.1);
+}
+
+  a {
+    text-decoration: none;
+  }
+  
+  li {
+    list-style: none;
+  }
+menu li a:active{
+  color: #ffbd39;
+}
+
+
+
+
+
+
+
